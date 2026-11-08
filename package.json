@@ -1,0 +1,17 @@
+{
+  "name": "burocratik-reconstructed",
+  "version": "1.0.0",
+  "private": true,
+  "description": "100% Reverse-Engineered & Rebrandable Bürocratik (burocratik.com) Nuxt 2 Static + SPA + Local API & Decompiled Source",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "rebrand": "node scripts/rebrand.js",
+    "download-assets": "node scripts/download-assets.js",
+    "extract-src": "node scripts/decompile-to-src.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+

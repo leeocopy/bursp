@@ -1,0 +1,28 @@
+/**
+ * SelectedWorkSection.js (Extracted from _nuxt/9544041.js)
+ * Reconstructed from Bürocratik (_nuxt bundle)
+ */
+
+// ==================== MODULE 771 (9544041.js) ====================
+const mod_771 = function(t,e,r){var content=r(775);content.__esModule&&(content=content.default),"string"==typeof content&&(content=[[t.i,content,""]]),content.locals&&(t.exports=content.locals);(0,r(9).default)("74b43988",content,!0,{sourceMap:!1})};
+
+// ==================== MODULE 774 (9544041.js) ====================
+const mod_774 = function(t,e,r){"use strict";r(771)};
+
+// ==================== MODULE 775 (9544041.js) ====================
+const mod_775 = function(t,e,r){var n=r(8)((function(i){return i[1]}));n.push([t.i,"._page-card-gallery{position:relative;width:100%;margin-top:/*lrs=32*/ 32px;margin-bottom:/*lrs=32*/ 32px}._page-card-gallery .row{width:var(--grid-width);margin:0 auto;display:flex;flex-wrap:wrap;align-items:flex-start;gap:/*lrs=32*/ 32px var(--grid-gap)}._page-card-gallery .row:not(:last-child){margin-bottom:/*lrs=32*/ 32px}@media only screen and (min-width: 2000px) {\n._page-card-gallery { margin-top: 1.6vw;\nmargin-bottom: 1.6vw\n}\n._page-card-gallery .row { gap: 1.6vw var(--grid-gap)\n}\n._page-card-gallery .row:not(:last-child) { margin-bottom: 1.6vw\n}\n}",""]),n.locals={},t.exports=n};
+
+// ==================== MODULE 778 (9544041.js) ====================
+const mod_778 = function(t,e,r){"use strict";r.r(e);r(4),r(27),r(28);var n={components:{CaseStudyCard:function(){return Promise.resolve().then(r.bind(null,392))},BrandingPageCard:function(){return Promise.resolve().then(r.bind(null,391))}},props:{bot:{type:Object,default:function(){}},as:{type:String,default:"section"},rows:{type:Array,required:!0}},methods:{computeRowComponent:function(t){return"section "===t?"article":"div"},getItemSize:function(t,e){var r=t.bias,n=t.items;return 2===n.length?"medium":3===n.length?0===e&&"left"===r||2===e&&"right"===r?"medium":"small":4===n.length?"small":"large"}}},o=(r(774),r(1)),component=Object(o.a)(n,(function(){var t=this,e=t._self._c;return e(t.as,{directives:[{name:"bot",rawName:"v-bot:event",value:{type:"intersection",message:"A glimpse of our latest work, fresh and minty",icon:"burocratik"},expression:"{ type: 'intersection', message: 'A glimpse of our latest work, fresh and minty', icon: 'burocratik' }",arg:"event"}],tag:"component",staticClass:"_page-card-gallery"},t._l(t.rows,(function(r,n){return e(t.computeRowComponent(t.as),{key:n,tag:"component",staticClass:"row"},[t._l(r.items,(function(o,l){return["case-study"===o.type?e("CaseStudyCard",t._b({directives:[{name:"pointer",rawName:"v-pointer:pointershift",arg:"pointershift"}],key:n*r.items.length+l,attrs:{size:t.getItemSize(r,l)}},"CaseStudyCard",o,!1)):t._e(),t._v(" "),"branding"===o.type?e("BrandingPageCard",t._b({key:n*r.items.length+l},"BrandingPageCard",o,!1)):t._e()]}))],2)})),1)}),[],!1,null,null,null);e.default=component.exports};
+
+// ==================== MODULE 799 (9544041.js) ====================
+const mod_799 = function(t,e,r){var content=r(876);content.__esModule&&(content=content.default),"string"==typeof content&&(content=[[t.i,content,""]]),content.locals&&(t.exports=content.locals);(0,r(9).default)("5bc3b63d",content,!0,{sourceMap:!1})};
+
+// ==================== MODULE 875 (9544041.js) ====================
+const mod_875 = function(t,e,r){"use strict";r(799)};
+
+// ==================== MODULE 876 (9544041.js) ====================
+const mod_876 = function(t,e,r){var n=r(8)((function(i){return i[1]}));n.push([t.i,"._selected-work{margin-top:/*lrs=80*/ clamp(64px,59.242px + 100vw*0.0122,80px);margin-bottom:/*lrs=168*/ clamp(96px,74.55px + 100vw*0.055,168px)}._selected-work h2{max-width:calc((var(--100vw) - 2*var(--grid-padding))/12 - var(--grid-gap))}@media only screen and (max-width: 1290px){._selected-work h2{max-width:unset}}@media only screen and (min-width: 2000px) {\n._selected-work { margin-top: 4vw;\nmargin-bottom: 8.4vw\n}\n}",""]),n.locals={},t.exports=n};
+
+// ==================== MODULE 982 (9544041.js) ====================
+const mod_982 = function(t,e,r){"use strict";r.r(e);var n={components:{PageCardGallery:r(778).default},props:{title:{type:String,required:!0},subtitle:{type:String,required:!0},pageCardRows:{type:Array,default:function(){return[]}}},mounted:function(){}},o=(r(875),r(1)),component=Object(o.a)(n,(function(){var t=this,e=t._self._c;return e("section",{staticClass:"_selected-work"},[e("div",{staticClass:"s-indented-title g-row"},[e("div",{staticClass:"g-col xxl-18 lg-19 md-22 sm-24"},[e("h2",{staticClass:"p-small xs-p-tiny"},[t._v(t._s(t.title))]),t._v(" "),e("p",{staticClass:"h2"},[t._v(t._s(t.subtitle))])])]),t._v(" "),e("PageCardGallery",{attrs:{rows:t.pageCardRows,as:"article"}})],1)}),[],!1,null,null,null);e.default=component.exports};

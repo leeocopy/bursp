@@ -1,0 +1,40 @@
+{
+  "agencyName": "Bürocratik",
+  "shortName": "Büro",
+  "tagline": "Phenomenal digital experiences.\nFunctional websites.\nRock & Roll identities.",
+  "metaTitle": "Bürocratik",
+  "metaDescription": "Hello, we are Büro. We craft remarkable experiences on screen and paper.",
+  "loadingGreeting": {
+    "first": "Hello",
+    "words": ["We ", "are ", "Büro"]
+  },
+  "contact": {
+    "generalEmail": "hello@burocratik.com",
+    "careersEmail": "careers@burocratik.com",
+    "phone": "(+351) 239 499 110"
+  },
+  "studios": [
+    {
+      "city": "Coimbra",
+      "address": "Parque Emp. de Eiras, Lote 22\n3020-265 Coimbra, Portugal",
+      "coordinates": "N 40° 14' 20.96\" W 8° 25' 25.74\"",
+      "mapUrl": "https://goo.gl/maps/8qX9Z2X9Z2X9Z2X9A"
+    },
+    {
+      "city": "Matosinhos",
+      "address": "Rua Brito Capelo 1029\n4450-077 Matosinhos, Portugal",
+      "coordinates": "N 41° 11' 06.8\" W 8° 41' 32.0\"",
+      "mapUrl": "https://goo.gl/maps/MatosinhosBuro"
+    }
+  ],
+  "socials": [
+    { "label": "Instagram", "url": "https://www.instagram.com/burocratik" },
+    { "label": "X / Twitter", "url": "https://twitter.com/burocratik" },
+    { "label": "Dribbble", "url": "https://dribbble.com/burocratik" },
+    { "label": "Behance", "url": "https://www.behance.net/burocratik" },
+    { "label": "Vimeo", "url": "https://vimeo.com/burocratik" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/company/burocratik" },
+    { "label": "Read.cv", "url": "https://read.cv/teams/burocratik" }
+  ]
+}
+

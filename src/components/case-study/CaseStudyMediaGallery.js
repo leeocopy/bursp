@@ -1,0 +1,16 @@
+/**
+ * CaseStudyMediaGallery.js (Extracted from _nuxt/e5a5428.js)
+ * Reconstructed from Bürocratik (_nuxt bundle)
+ */
+
+// ==================== MODULE 782 (e5a5428.js) ====================
+const mod_782 = function(e,t,n){var content=n(842);content.__esModule&&(content=content.default),"string"==typeof content&&(content=[[e.i,content,""]]),content.locals&&(e.exports=content.locals);(0,n(9).default)("7dfc9dc2",content,!0,{sourceMap:!1})};
+
+// ==================== MODULE 841 (e5a5428.js) ====================
+const mod_841 = function(e,t,n){"use strict";n(782)};
+
+// ==================== MODULE 842 (e5a5428.js) ====================
+const mod_842 = function(e,t,n){var l=n(8)((function(i){return i[1]}));l.push([e.i,"._media-gallery{position:relative;margin-top:var(--grid-margin);margin-bottom:var(--grid-margin);justify-content:space-between}@media only screen and (max-width: 1023px){._media-gallery{gap:var(--grid-margin)}}@media only screen and (min-width: 1023px){._media-gallery.-reversed{flex-direction:row-reverse}._media-gallery.-reversed .sized-media-column{align-items:flex-end}}@media only screen and (min-width: 2000px) {\n}",""]),l.locals={},e.exports=l};
+
+// ==================== MODULE 1003 (e5a5428.js) ====================
+const mod_1003 = function(e,t,n){"use strict";n.r(t);n(38);var l={components:{Media:n(25).l},props:{as:{type:String,default:"div"},layout:{type:String,default:"default",validator:function(e){return["default","reversed"].includes(e)}},list:{type:Array,default:function(){return[]}},single:{type:Object,default:void 0}}},r=(n(841),n(1)),component=Object(r.a)(l,(function(){var e=this,t=e._self._c;return t(e.as,{tag:"component",class:"_media-gallery g-row ".concat("default"!==e.layout?"-"+e.layout:"")},[t("div",{staticClass:"g-col xxl-14 sm-24 sized-media-column"},[e._l(e.list,(function(e,n){var l=e.size,r=e.media;return[t("Media",{key:n,class:"-".concat(l),attrs:{asset:r}})]}))],2),e._v(" "),t("div",{staticClass:"g-col xxl-8 sm-14 xs-24"},[e.single?t("Media",{attrs:{asset:e.single}}):e._e()],1)])}),[],!1,null,null,null);t.default=component.exports};

@@ -1,0 +1,16 @@
+/**
+ * PrivacyContentSection.js (Extracted from _nuxt/0b64486.js)
+ * Reconstructed from Bürocratik (_nuxt bundle)
+ */
+
+// ==================== MODULE 823 (0b64486.js) ====================
+const mod_823 = function(t,n,e){var content=e(927);content.__esModule&&(content=content.default),"string"==typeof content&&(content=[[t.i,content,""]]),content.locals&&(t.exports=content.locals);(0,e(9).default)("5ef8fa86",content,!0,{sourceMap:!1})};
+
+// ==================== MODULE 926 (0b64486.js) ====================
+const mod_926 = function(t,n,e){"use strict";e(823)};
+
+// ==================== MODULE 927 (0b64486.js) ====================
+const mod_927 = function(t,n,e){var o=e(8)((function(i){return i[1]}));o.push([t.i,"._privacy-content[data-v-3fe9629c]{position:relative;margin-bottom:/*lrs=64*/ 64px}._privacy-content .h1[data-v-3fe9629c]{margin-bottom:/*lrs=36*/ clamp(30px,28.206px + 100vw*0.0046,36px)}._privacy-content .p-small[data-v-3fe9629c]{position:absolute;top:/*lrs=142*/ clamp(100px,87.481px + 100vw*0.0321,142px)}._privacy-content[data-v-3fe9629c] .g-row{margin-top:/*lrs=124*/ clamp(100px,92.863px + 100vw*0.0183,124px)}._privacy-content[data-v-3fe9629c] .g-row h2{font-size:/*lrs=40*/ clamp(28px,24.412px + 100vw*0.0092,40px);letter-spacing:-0.05em;---letter-spacing: -0.05em;line-height:1.1;margin-bottom:/*lrs=16*/ clamp(12px,10.791px + 100vw*0.0031,16px)}._privacy-content[data-v-3fe9629c] .g-row p{font-size:/*lrs=30*/ clamp(24px,22.206px + 100vw*0.0046,30px);line-height:1.1;letter-spacing:-0.05em;---letter-spacing: -0.05em;white-space:pre-line}@media only screen and (min-width: 2000px) {\n._privacy-content[data-v-3fe9629c] { margin-bottom: 3.2vw\n}\n._privacy-content .h1[data-v-3fe9629c] { margin-bottom: 1.8vw\n}\n._privacy-content .p-small[data-v-3fe9629c] { top: 7.1vw\n}\n._privacy-content[data-v-3fe9629c] .g-row { margin-top: 6.2vw\n}\n._privacy-content[data-v-3fe9629c] .g-row h2 { font-size: 2vw;\nmargin-bottom: 0.8vw\n}\n._privacy-content[data-v-3fe9629c] .g-row p { font-size: 1.5vw\n}\n}",""]),o.locals={},t.exports=o};
+
+// ==================== MODULE 1017 (0b64486.js) ====================
+const mod_1017 = function(t,n,e){"use strict";e.r(n);var o={components:{PortableText:e(41).d},props:{content:{type:[Boolean,Array],required:!0}},data:function(){return{motion:{enter:null,cta:null,pictogram:null,names:null}}},beforeDestroy:function(){},mounted:function(){var t=this;this.$nextTick((function(){console.log(t.content)}))}},c=(e(926),e(1)),component=Object(c.a)(o,(function(){var t=this,n=t._self._c;return n("section",{directives:[{name:"intersection",rawName:"v-intersection"}],staticClass:"_privacy-content"},t._l(t.content,(function(e,i){return n("div",{key:i,staticClass:"g-row"},[n("div",{staticClass:"xxl-6 sm-5 xs-5 g-col"},[n("h4",{staticClass:"h3"},[t._v("0"+t._s(i+1)+".")])]),t._v(" "),n("div",{staticClass:"xxl-12 sm-16 xs-19 g-col"},[n("PortableText",{attrs:{blocks:e.body}})],1)])})),0)}),[],!1,null,"3fe9629c",null);n.default=component.exports};

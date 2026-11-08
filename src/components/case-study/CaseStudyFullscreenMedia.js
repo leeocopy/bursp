@@ -1,0 +1,16 @@
+/**
+ * CaseStudyFullscreenMedia.js (Extracted from _nuxt/278e8b1.js)
+ * Reconstructed from Bürocratik (_nuxt bundle)
+ */
+
+// ==================== MODULE 784 (278e8b1.js) ====================
+const mod_784 = function(e,t,n){var content=n(846);content.__esModule&&(content=content.default),"string"==typeof content&&(content=[[e.i,content,""]]),content.locals&&(e.exports=content.locals);(0,n(9).default)("6cfdb448",content,!0,{sourceMap:!1})};
+
+// ==================== MODULE 845 (278e8b1.js) ====================
+const mod_845 = function(e,t,n){"use strict";n(784)};
+
+// ==================== MODULE 846 (278e8b1.js) ====================
+const mod_846 = function(e,t,n){var l=n(8)((function(i){return i[1]}));l.push([e.i,"._fullscreen-media{position:relative;width:100%;margin:var(--grid-margin) 0}._fullscreen-media>._media{width:100%}@media only screen and (min-width: 2000px) {\n}",""]),l.locals={},e.exports=l};
+
+// ==================== MODULE 1005 (278e8b1.js) ====================
+const mod_1005 = function(e,t,n){"use strict";n.r(t);var l={components:{Media:n(25).l},props:{as:{type:String,default:"div"},media:{type:Object,default:void 0}}},o=(n(845),n(1)),component=Object(o.a)(l,(function(){var e=this,t=e._self._c;return t(e.as,{tag:"component",staticClass:"_fullscreen-media"},[t("Media",{attrs:{asset:e.media}})],1)}),[],!1,null,null,null);t.default=component.exports};

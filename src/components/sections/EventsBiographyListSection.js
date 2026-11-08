@@ -1,0 +1,16 @@
+/**
+ * EventsBiographyListSection.js (Extracted from _nuxt/19f5717.js)
+ * Reconstructed from Bürocratik (_nuxt bundle)
+ */
+
+// ==================== MODULE 811 (19f5717.js) ====================
+const mod_811 = function(e,t,n){var content=n(903);content.__esModule&&(content=content.default),"string"==typeof content&&(content=[[e.i,content,""]]),content.locals&&(e.exports=content.locals);(0,n(9).default)("f26dc3ca",content,!0,{sourceMap:!1})};
+
+// ==================== MODULE 902 (19f5717.js) ====================
+const mod_902 = function(e,t,n){"use strict";n(811)};
+
+// ==================== MODULE 903 (19f5717.js) ====================
+const mod_903 = function(e,t,n){var r=n(8)((function(i){return i[1]}));r.push([e.i,"._events-biography-list{position:relative;margin-top:64px}._events-biography-list .description{margin-top:/*lrs=20*/ clamp(12px,9.621px + 100vw*0.0061,20px);margin-bottom:/*lrs=104*/ clamp(96px,93.621px + 100vw*0.0061,104px)}@media only screen and (max-width: 743px){._events-biography-list .description{column-count:1;text-indent:calc((var(--100vw) - 2*var(--grid-padding))/4.8 - var(--grid-gap))}}._events-biography-list a{cursor:none}@media only screen and (min-width: 2000px) {\n._events-biography-list .description { margin-top: 1vw;\nmargin-bottom: 5.2vw\n}\n}",""]),r.locals={},e.exports=r};
+
+// ==================== MODULE 1011 (19f5717.js) ====================
+const mod_1011 = function(e,t,n){"use strict";n.r(t);n(16),n(102);var r=n(25),o={components:{Divider:r.d,T4ble:r.x,TableHeader:r.B,TableGroup:r.z,TableGroupTitle:r.A,TableRow:r.C,TableCell:r.y},props:{title:{type:String,required:!0},description:{type:String,required:!0},list:{type:Object,required:!0}},computed:{HyperlinkComponent:function(){return r.h}},methods:{getPointerType:function(link){return link?"pointershift":"none"}}},l=(n(902),n(1)),component=Object(l.a)(o,(function(){var e=this,t=e._self._c;return t("section",{directives:[{name:"bot",rawName:"v-bot:event",value:{type:"intersection",message:"Nobody fell asleep, promise.",icon:"burocratik"},expression:"{ type: 'intersection', message: 'Nobody fell asleep, promise.', icon: 'burocratik' }",arg:"event"}],staticClass:"_events-biography-list"},[t("Divider",[t("h2",[e._v(e._s(e.title))])]),e._v(" "),t("div",{staticClass:"g-row justify-right"},[t("p",{staticClass:"description g-col xxl-8 md-12 sm-14 xs-24 p-tiny xs-p-small text-columns"},[e._v(e._s(e.description))])]),e._v(" "),t("T4ble",{staticClass:"list-container"},[t("TableHeader",[t("div",[e._v("year")]),e._v(" "),t("div",[e._v("event/book/magazine")]),e._v(" "),t("div",[e._v("type")]),e._v(" "),t("div",[e._v("location/entity")])]),e._v(" "),e._l(e.list.years,(function(n,r){var o=n.year,l=n.items;return[t("TableGroup",{key:r,attrs:{collapsible:"",collapsed:!1}},[t("TableGroupTitle",[e._v(e._s(o))]),e._v(" "),e._l(l,(function(n,r){return[t("TableRow",{directives:[{name:"pointer",rawName:"v-pointer:[getPointerType(!!item.url)]",arg:e.getPointerType(!!n.url)}],key:e.list.years.length+r,attrs:{as:n.url?{component:e.HyperlinkComponent,props:{to:{type:"external",url:n.url}}}:"div"}},[t("TableCell",[e._v("\n\t\t\t\t\t\t\t"+e._s(n.title)+"\n\t\t\t\t\t\t")]),e._v(" "),t("TableCell",[e._v(e._s(n.type))]),e._v(" "),t("TableCell",[e._v(e._s(n.subtitle))])],1)]}))],2)]}))],2)],1)}),[],!1,null,null,null);t.default=component.exports};

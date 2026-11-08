@@ -1,0 +1,7 @@
+/**
+ * Layout Component: PageNavbar.js
+ * Reconstructed from Bürocratik (_nuxt bundle)
+ */
+
+// ==================== MODULE 204 (f4b42a5.js) ====================
+const mod_204 = function(e,t,n){"use strict";n.d(t,"a",(function(){return d}));var r=n(0),o=n(46),l={inject:["$page","$scroller"],props:{progressTrack:{type:Object,default:function(){return{}}}},data:function(){return{progressTrackScrollTrigger:null}},destroyed:function(){this.$call("kill",this.progressTrackScrollTrigger)},mounted:function(){var e=this;this.$page.loader.mounted.then((function(){if(e.$scroller){var element=e.$qs(".line-divider.m-c > .m-t");e.progressTrackScrollTrigger=o.ScrollTrigger.create({scroller:e.$scroller.element,trigger:e.$page.element,start:"top top",end:"bottom bottom",onEnter:function(){r.a.to(element,{scaleX:0})},onUpdate:function(e){var progress=e.progress;r.a.set(element,{scaleX:progress})}})}}))},methods:{onCloseClick:function(){this.modal?this.$pageModal.close("manual"):this.$router.push("/")}}},c=(n(613),n(1)),d=Object(c.a)(l,(function(){var e=this,t=e._self._c;return t("nav",{staticClass:"_page-navbar p-medium"},[t("div",{staticClass:"slot-container relative"},[e._t("default")],2),e._v(" "),e._m(0),e._v(" "),t("div",{staticClass:"sticky-stopper",attrs:{"aria-hidden":"true"}})])}),[function(){var e=this._self._c;return e("div",{staticClass:"line-divider relative m-c -e0"},[e("div",{staticClass:"absolute inset-0 background-black m-t"})])}],!1,null,null,null).exports};
